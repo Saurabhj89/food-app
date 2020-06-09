@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header.main-header {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top:0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+}
+
+.logo {
+    display: flex;
+    margin: 5px;
+    padding:5px;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin:0;
+}
+.navbar ul li {
+    margin: 5px;
+}
+
+.navbar ul li a{
+    font-family: 'Bree Serif', serif;
+    color: #FFF;
+    padding: 5px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: #FFF;
+    border-radius: 15px;
+    color:#000;
+}
+
+
+.content {
+    /* height: 100vh; */
+    height:100%
+}
+
+
+#container {
+    margin: 70px 5px;
+}
+
+#container {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card img {
+    max-height: 190px;
+}
+
+.card {
+    margin: 10px;
+    width: 24rem;
+    height: 24rem;
+    max-height: 24rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: ease-in .1s;
+}
+
+.card .card-text {
+    font-size: 12px;
+}
+
+.title-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-list {
+    font-size: 12px;
+}
+
+.card-body {
+    padding: 5px 20px;
+}
+
+.btn-buynow {padding: 4px 8px;}
+.heart-ic {font-size: 22px;}
+.rating-container {color: #ffc800;}
+.title-bold {
+    font-size: 22px; 
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 60%;
+}
+.modal-content {
+    width: auto;
+    max-width: 90vw;
+}
+
+.card-offers {
+    height: 80px;
+}

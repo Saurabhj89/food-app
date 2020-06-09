@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/406d07bb89.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="sample_json.js"></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav id="navbar" class="navbar">
+        <div id="logo" class="logo">
+          <img src="./images/logo/food-logo.png" alt="Food Ordering App" />
+        </div>
+        
+        <ul>
+          <li class="item">
+            <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" id='search' aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" id='submit'>Search</button>
+          </form>
+        </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="content" class="content">
+      <div id="container" class="container-fluid">
+        <!-- Content to be loaded here -->
+      </div>
+    </section>
+
+    <button type="button" id="modal-btn" style="display: none;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    </button>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
