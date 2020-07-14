@@ -22,6 +22,7 @@ class Card {
 
     getTemplate() {
         let modal_title = this.name.replace("'", "\\'");
+        let fav_class = this.favourite ? 'fa-heart' : 'fa-heart-o';
         let card_template = `
             <div class="card" onclick="openPopUp('./images/restaurents/${this.image}', '${modal_title}')">
             <img
@@ -47,7 +48,7 @@ class Card {
                 <div>${this.offers[0]}</div>
                 </div>
                 <div class="title-line" style='align-items: flex-end;'>
-                <div style='color:#dc3545'><i class="fa fa-heart-o heart-ic" aria-hidden="true"></i></div>
+                <div style='color:#dc3545'><i class="fa ${fav_class} heart-ic" aria-hidden="true"></i></div>
                 <div><a onclick="event.stopPropagation();" href="./images/restaurents/${this.image}" target="_blank" class="btn btn-outline-secondary btn-buynow">Buy Now</a></div>
                 </div>
                 

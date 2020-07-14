@@ -11,7 +11,7 @@ const data = [
     name: 'Faasos',
     rating: 3.6,
     offers: ['50% Off upto rs 75 on min order of Rs 99'],
-    favourite: false,
+    favourite: true,
     image: 'faasos.jpg',
     cities: 'Mumbai, Pune, Nagpur, Ahmedabad, Vadodra, Delhi, Gurgaon'
 },
@@ -27,7 +27,7 @@ const data = [
     name: 'Khichdi Experiment by Ola Foods',
     rating: 2.5,
     offers: ['50% Off upto Rs 100 on min order of Rs 199'],
-    favourite: false,
+    favourite: true,
     image: 'khichdi_express.jpg',
     cities: 'Mumbai, Pune, Nagpur, Delhi, Gurgaon'
 },
